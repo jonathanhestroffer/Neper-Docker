@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="450" height="300" src="https://github.com/jonathanhestroffer/Neper-Docker/blob/master/preview.png">
+</p>
+
 # Neper-Docker
 Docker container for Neper: polycrystal generation and meshing. This containerized format of Neper allows for easy installation and portability of the latest development version of Neper.
 
