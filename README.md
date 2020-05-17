@@ -23,7 +23,7 @@ This particular containerization is accomplished through the use of Docker Deskt
 
 3.  Open Windows Powershell and cd into the directory where the repository was downloaded
 
-4.  Build Docker image from DockerFile - "docker build -t 'name of image here' ."
+4.  Build Docker image from Dockerfile - "docker build -t 'name of image here' ."
         
         $ docker build -t neper .
 
