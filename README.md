@@ -37,7 +37,9 @@ This particular containerization is accomplished through the use of Docker Deskt
 
         $ docker run --rm -it -v F:\Projects\Neper\:/work neper
 
-    This command starts and runs a Docker container interactively based on the image "neper" created earlier. This command also mounts the specified directory on the host inside the container at the specified path. In the example above the host path F:\Projects\Neper\ is available as /work inside the container. This is a way of either feeding information into your container, or providing a way for your container to make files accessible to the host.
+    This command starts and runs a Docker container interactively based on the image "neper" created earlier. This command also mounts the specified directory on the host inside the container at the specified path. In the example above the host path F:\Projects\Neper\ is available as /work inside the container. This is a way of either feeding information into your container, or providing a way for your container to make files accessible to the host. 
+    
+    *Please note that the backslashes \ will become forward slashes / in the command for Mac and Unix systems. 
     
 7. cd into the /work directory of the container and start using Neper!
     
