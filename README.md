@@ -3,7 +3,7 @@
   <img width="450" height="300" src="https://github.com/jonathanhestroffer/Neper-Docker/blob/master/preview.png">
 </p>
 
-Neper-Docker is a Docker container for [Neper](neper.info): polycrystal generation and meshing. This containerized format of Neper allows for easy installation and portability of the latest development version of Neper.
+Neper-Docker is a Docker container for [Neper](neper.info): polycrystal generation and meshing. The latest Docker image available is of Neper version 4.2.0. A Dockerfile is also provided in this repository to build an image based on the latest development version of Neper. The Dockerfile has been tested for Neper version 4.2.0, future Neper builds may require additional dependencies.
 
 ## Installation
 
