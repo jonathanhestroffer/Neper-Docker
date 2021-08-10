@@ -26,24 +26,28 @@ docker build -t jonathanhestroffer/neper .
 Note: Any edits made to the Dockerfile to achieve a customized build might affect the stability of Neper.
 
 ## Basic Usage
-    
-7. cd into the /work directory of the container and start using Neper!
-    
-    Generate a 10-cell tessellation and its mesh, then visualize both on the host system as "n10.png". 
+  
+Generate a 10-cell tessellation and its mesh, then visualize both on the host system as "n10.png". 
 
-        $ neper -T -n 10 -o n10
-		$ neper -M n10.tess
-		$ neper -V n10.tess,n10.msh -dataelsetcol id -print n10
+```bash
+neper -T -n 10 -o n10
+```
+```bash
+neper -M n10.tess
+```
+```bash
+neper -V n10.tess,n10.msh -dataelsetcol id -print n10
+```
 		
-	![Visualization](https://github.com/jonathanhestroffer/Neper-Docker/blob/master/n10.png)
+![Visualization](https://github.com/jonathanhestroffer/Neper-Docker/blob/master/n10.png)
         
-    All files created will be available on the host system for you to view as normal as will any other file created during your use of Neper.
+All files created will be available on the host system for you to view as normal as will any other file created during your use of Neper.
     
-8. When finished, close/stop the Docker container.
+When finished, stop and exit the Docker container with
 
-        $ exit
-        
-    This command will exit the container as well as remove it because of the --rm option used in the previous run command.
+```bash
+exit
+```
 
 ## Supplementary Material
 
