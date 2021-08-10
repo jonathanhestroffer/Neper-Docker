@@ -26,7 +26,18 @@ docker build -t jonathanhestroffer/neper .
 Note: Any edits made to the Dockerfile to achieve a customized build might affect the stability of Neper.
 
 ## Basic Usage
-  
+
+#### Running Docker Container
+
+The preferred method of running the Docker container is with the command ```docker run --rm -it -v <host directory>:<container directory> jonathanhestroffer/neper```.
+
+Example:
+```bash
+docker run --rm -it -v F:/NeperTest/:/work jonathanhestroffer/neper
+```
+
+The above deploys a container with directory ```/work``` synced to the ```/NeperTest``` directory on the host machine. During execution of Neper, all output files will be generated inside the host directory.
+
 Generate a 10-cell tessellation and its mesh, then visualize both on the host system as "n10.png". 
 
 ```bash
