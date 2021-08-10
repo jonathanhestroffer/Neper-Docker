@@ -59,7 +59,3 @@ When finished, stop and exit the Docker container with
 ```bash
 exit
 ```
-
-## Supplementary Material
-
-Also provided in this repository is an example of using Neper to generate tessellation and mesh files from experimentally obtained voxelated microstructures (Raster Tessellation in Neper terminology). This is available in the TESR_example folder and contains example scripts for generating necessary files for Neper. There are also example Neper commands provided in the scripts.sh file. Some of these are out-dated and should be reviewed alongside the Neper manual "neper.pdf".
