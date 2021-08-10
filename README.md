@@ -38,6 +38,14 @@ docker run --rm -it -v F:/NeperTest/:/work jonathanhestroffer/neper
 
 The above deploys a container with directory ```/work``` synced to the ```/NeperTest``` directory on the host machine. During execution of Neper, all output files will be generated inside the host directory.
 
+After initializing the container, cd into the ```/work``` directory.
+
+```bash
+cd work
+```
+
+#### Tessellation, Meshing and Visualization Example
+
 Generate a 10-cell tessellation and its mesh, then visualize both on the host system as "n10.png". 
 
 ```bash
