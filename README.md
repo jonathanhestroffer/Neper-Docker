@@ -36,12 +36,12 @@ Example:
 docker run --rm -it -v F:/NeperTest/:/work jonathanhestroffer/neper
 ```
 
-The above deploys a container with directory ```/work``` synced to the ```/NeperTest``` directory on the host machine. During execution of Neper, all output files will be generated inside the host directory.
+The above deploys a container with directory ```/work``` synced to the ```/NeperTest``` directory on the host machine. After execution of Neper, all output files can be copied to the host directory.
 
-After initializing the container, cd into the ```/work``` directory.
+After initializing the container, cd into the ```/neper``` directory to begin working.
 
 ```bash
-cd work
+cd neper
 ```
 
 #### Tessellation, Meshing and Visualization Example
