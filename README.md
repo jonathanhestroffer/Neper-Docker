@@ -59,8 +59,6 @@ neper -V n10.tess,n10.msh -dataelsetcol id -print n10
 ```
 		
 ![Visualization](https://github.com/jonathanhestroffer/Neper-Docker/blob/master/n10.png)
-        
-All files created will be available on the host system for you to view as normal as will any other file created during your use of Neper.
     
 When finished, stop and exit the Docker container with
 
