@@ -39,5 +39,6 @@ RUN git clone https://github.com/rquey/neper.git && \
 	make && \
 	make install && \
 	make test
+	chmod -R /neper
 
 CMD ["/bin/bash"]
